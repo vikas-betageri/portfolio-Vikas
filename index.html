@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio -Vikas</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="utils.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <nav class="left">
+        <img src="Website.jpg" alt="logo" width="50px">
+        <h1>Portfolio -Vikas</h1>
+      </nav>
+      <nav class="right">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="content">
+      <div class="intro">
+        <h1> Hello, My name is <span class="purple">Vikas</span></h1>
+        <h1>and I am Enthusiastic in</h1>
+        <span id="element"></span>
+      </div>
+      <div class="image">
+        <img src="Vikki.jpeg" alt="" width="400px">
+      </div>
+    </div>
+
+    <hr>
+    <div class="Skills">
+      <h2>
+        <ul>Learnings:</ul>
+      </h2>
+      <div class="language">
+        <h3>Programming Languages</h3>
+        <ul>
+          <li><img src="Python.png" alt="Python" title="Python" width="150px"></li>
+          <li><img src="C.png" alt="C-program" title="C-programming" width="100px"></li>
+          <li><img src="java.webp" alt="Java" title="Java" width="120px"></li>
+        </ul>
+      </div>
+      <div class="dev">
+        <h3>Frontend Web Development</h3>
+        <ul>
+          <li><img src="html.png" alt="HTML" title="HTML 5" width="100px"></li>
+          <li><img src="css.png" alt="CSS3" title="CSS 3" width="100px"></li>
+          <li><img src="javascript.png" alt="Javascript" title="Javascript" width="100px"></li>
+          <li><img src="react.png" alt="React" title="React.js" width="100px"></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+  </main>
+  <div class="Certification">
+    <h2>Certifications:</h2>
+
+    <img src="Infosys.jpeg" alt="" width="500px"><br>
+    <p>Python Foundation Certification</p>
+
+
+  </div>
+  <div class="tag">
+    <h2>Still learning. Still building. Still growing..</h2>
+  </div>
+  <footer id="Contact">
+    <h2>Contact Me:</h2>
+    <p>Email: vikasbetageri@gmail.com</p>
+    <p><a href="https://in.linkedin.com/in/vikas-betageri-v3">Linkedin: Vikas betageri</a></p>
+    <p><a href="https://www.instagram.com/vikas_betageri/">Instagram: vikas_betageri</a></p>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <script>
+
+    var typed = new Typed('#element', {
+      strings: ['Frontend Development', 'Web Designing', 'Sketching Artworks'],
+      typeSpeed: 40,
+      backspeed: 40,
+      loop: true,
+    });
+  </script>
+</body>
+
+</html>
